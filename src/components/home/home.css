@@ -1,0 +1,21 @@
+html{
+    scroll-behavior: smooth;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 70%;
+    background-color: aqua;
+}
+
+@media only screen and (max-width: 1024px) {
+    .home{
+        max-width: 90%;
+    }
+}
+@media only screen and (max-width: 512px) {
+    .home{
+        max-width: 100%;
+    }
+}
