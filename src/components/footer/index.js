@@ -1,8 +1,8 @@
 import React from 'react'
-
+import './footer.css'
 function Footer() {
   return (
-    <div>Footer</div>
+    <div className='footer'>Made With ❤ By Anish</div>
   )
 }
 

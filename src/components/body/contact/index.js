@@ -1,9 +1,23 @@
 import React from 'react'
 import './contact.css'
-function Contact() {
+import {SocialData} from './social-data'
+import './contact.css'
+function SocialContact() {
+  const data = SocialData
   return (
-    <div>Contact</div>
+    <div className='social-contact' id="contact"> 
+        {data.map((item)=>{
+          return(
+            <a href={item.link} target="_blank" rel="noreferrer">
+              <div className='social-icon-div'>
+                 <img src={item.icon} alt={item.platform} className='social-icon'/>  
+              </div>
+            </a>
+          )
+        })}
+    
+    </div>
   )
 }
 
-export default Contact
+export default SocialContact
