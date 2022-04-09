@@ -1,5 +1,5 @@
 import React from 'react'
-import './work.css'
+import './achievments.css'
 function Work() {
   return (
     <div>Work</div>

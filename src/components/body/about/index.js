@@ -1,5 +1,5 @@
 import React from 'react'
-import SocialContact from '../contact'
+import SocialContact from '../social-contact'
 import './about.css'
 function About() {
   return (
