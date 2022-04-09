@@ -4,7 +4,7 @@ import './social-contact.css'
 function SocialContact() {
   const data = SocialData
   return (
-    <div className='social-contact' id="contact"> 
+    <div className='social-contact'> 
         {data.map((item)=>{
           return(
             <a href={item.link} target="_blank" rel="noreferrer">

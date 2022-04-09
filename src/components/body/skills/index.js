@@ -5,7 +5,7 @@ import './skills.css'
 function Skills() {
   const data = SkillsData
   return (
-    <div className='skills'>
+    <div className='skills' id="skills">
       <Seprator/>
        <div className='section-title'>Skills</div>
         <div className='skills-container'>

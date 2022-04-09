@@ -8,7 +8,7 @@ function About() {
           <div className='about-info'>
              Hey there!👋 I am 
              <br/><span className='info-name'>Anish, A Tech Geek!😁</span>
-             <br/>I love to explore Everything.
+             <br/>Competitive Programmer | Web Developer
           </div>
           <div className='about-photo'>
             <img 

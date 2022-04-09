@@ -25,11 +25,28 @@
     justify-content: center;
     align-items: center;
     border-radius: 4px;
-    text-decoration: none;
-    color: black;
 }
-
 .resume-button a{
     text-decoration: none;
     color: black;
+}
+.icon-see{
+    margin-top: 5px;
+    padding-left: 4px;
+}
+@media only screen and (max-width:720px){
+    .contact-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-left{
+        max-width: 100%;
+        font-size: 16px;
+        margin-bottom: 12px;
+    }
+    .resume-button{
+        font-size: 16px;
+    }
+    
 }
