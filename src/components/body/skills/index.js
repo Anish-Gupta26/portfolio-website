@@ -11,12 +11,12 @@ function Skills() {
         <div className='skills-container'>
             {data.map((item)=>{
                 return(
-                    <div className='skills-section'>
+                    <div key={item.type} className='skills-section' data-aos="zoom-out"  data-aos-duration="2000">
                         <label className='skills-section-title'>{item.type}</label>
                         <div className='skills-list'>
                             {item.list.map((skill)=>{
                                 return(
-                                    <div className='skills-card'>
+                                    <div key={skill.name} className='skills-card'>
                                         <div className='skill-icon'>{skill.icon}</div>
                                         <label className='skill-name'>{skill.name}</label>
                                     </div>

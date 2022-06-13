@@ -11,7 +11,7 @@ function Project() {
       <label className='section-title'>Projects</label>
      {data.map((item)=>{
        return(
-          <div className='project-item'>
+          <div key={item.title} className='project-item' data-aos="flip-up"  data-aos-duration="2000">
               <ProjectCard item={item}/>
               <hr/>
           </div>

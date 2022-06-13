@@ -14,7 +14,7 @@ function Contact() {
             </div> 
             <div className='resume-button'>
                 <a href="https://drive.google.com/file/d/1SIHa4YJv1xaWyEVQMDU_xYkwbeE9FE0H/view" rel="noreferrer" target='_blank'>Resume</a>
-                <i class="fi fi-rr-eye icon-see"></i>
+                <i className="fi fi-rr-eye icon-see"></i>
             </div>
         </div>
     </div>
