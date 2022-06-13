@@ -6,6 +6,9 @@
     justify-content: center;
     align-items: center;
 }
+.about-photo{
+    padding-left: 50px;
+}
 .cover{
     height: 302px;
 }

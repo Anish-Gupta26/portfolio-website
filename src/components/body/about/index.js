@@ -1,6 +1,7 @@
 import React from 'react'
-import SocialContact from '../social-contact'
+// import SocialContact from '../social-contact'
 import './about.css'
+import SocialMedia from '../../Social-media'
 function About() {
   return (
     <div className='about'>
@@ -17,7 +18,8 @@ function About() {
           </div>
       </div>
       <div className='about-bottom'>
-        <SocialContact/>
+        {/* <SocialContact/> */}
+        <SocialMedia/>
       </div>  
     </div>
   )
