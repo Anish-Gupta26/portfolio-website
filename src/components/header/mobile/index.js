@@ -18,6 +18,11 @@ function Mobile({isopen,setisopen}) {
           </a>
         </div>
         <div className='mobile-option'>
+          <a href='#experience' >
+          <i className="fi fi-rr-briefcase option-icon"></i>Experience  
+          </a>
+        </div>
+        <div className='mobile-option'>
           <a href='#contact' >
           <i className="fi fi-rr-user option-icon"></i> Contact  
           </a>

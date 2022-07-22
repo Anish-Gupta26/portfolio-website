@@ -8,6 +8,7 @@ import Contact from './contact/index'
 import Aos from 'aos';
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import Experience from './experience'
 
 function Body() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function Body() {
         <About/>
         <Project/>
         <Skills/>
+        <Experience/>
         <Contact/> 
     </div>
   )

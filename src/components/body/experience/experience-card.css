@@ -1,0 +1,29 @@
+.experience-card{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 16px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    width: 45%;
+}
+.experience-logo{
+    height: 80px;
+}
+.experience-info{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.experience-dates{
+    color: gray;
+}
+.experience-desc{
+    text-align: left;
+}
+
+@media only screen and (max-width:720px){
+    .experience-card{
+        width: 100%;
+    }
+}
