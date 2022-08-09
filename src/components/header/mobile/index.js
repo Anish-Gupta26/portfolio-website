@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import './mobile.css'
+import ReactSwitch from 'react-switch'
+import { ThemeContext } from '../../../App'
+
 function Mobile({isopen,setisopen}) {
+  const {theme,setTheme} = useContext(ThemeContext)
+  const toggleTheme = ()=>{
+  setTheme((curr) => (curr === "light" ? "dark" : "light"));
+  }
+
   return (
     <div className='mobile'>
       <div className='close-icon' onClick={()=>setisopen(!isopen)}>
@@ -26,6 +34,9 @@ function Mobile({isopen,setisopen}) {
           <a href='#contact' >
           <i className="fi fi-rr-user option-icon"></i> Contact  
           </a>
+        </div>
+        <div className='mobile-option'>
+        <ReactSwitch onChange={toggleTheme} checked={theme==="light"}/>
         </div>
       </div>
     </div>

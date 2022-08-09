@@ -9,6 +9,7 @@
 }
 .experience-logo{
     height: 80px;
+    background-color: white;
 }
 .experience-info{
     display: flex;

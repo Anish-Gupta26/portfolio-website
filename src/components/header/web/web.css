@@ -17,6 +17,9 @@
     display: flex;
     align-items: center;
 }
+#dark .web-option a{
+    color: white;
+}
 .option-icon{
     display: flex;
     align-items: center;
