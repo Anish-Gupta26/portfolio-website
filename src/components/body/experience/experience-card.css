@@ -4,11 +4,11 @@
     margin-top: 16px;
     justify-content: space-between;
     align-items: center;
-    padding: 8px;
-    width: 45%;
+    padding: 30px;
+    width: 80%;
 }
 .experience-logo{
-    height: 80px;
+    height: 100px;
     background-color: white;
 }
 .experience-info{

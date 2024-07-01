@@ -8,6 +8,8 @@ function ExperienceCard({item}) {
         <div className='experience-info'>
             <label className='company-name'>{item.company}</label>
         <div className='experience-dates'>
+            <label className='company-name'>{item.role}</label>
+            <br/>
             <label>{item.doj}</label> to <label>{item.doe}</label>
         </div>
         <div className='experience-desc'>

@@ -9,6 +9,10 @@ export const SkillsData = [
             {
                 name: "Python",
                 icon: <i className="devicon-python-plain colored"></i>,
+            },
+            {
+                name: "Go",
+                icon: <i className="devicon-go-original-wordmark colored"></i>
             }
         ]
     },
@@ -30,11 +34,15 @@ export const SkillsData = [
         ]
     },
     {
-        type: "Backend",
+        type: "Backend & cloud",
         list: [
             {
                 name: "Django",
                 icon: <i className="devicon-django-plain colored"></i>      
+            },
+            {
+                name: "Amazon Web Services",
+                icon: <i className="devicon-amazonwebservices-plain-wordmark colored"></i>      
             }
         ]
     }

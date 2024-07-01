@@ -8,8 +8,8 @@ function About() {
       <div className='about-top' data-aos="zoom-in"  data-aos-duration="2000">
           <div className='about-info'>
              Hey there!👋 I am 
-             <br/><span className='info-name'>Anish, A Tech Geek!😁</span>
-             <br/>Competitive Programmer | Web Developer
+             <br/><span className='info-name'>Anish, Tech Geek!👨🏻‍💻</span>
+             <br/>Software Engineer at CRED
           </div>
           <div className='about-photo'>
             <img 

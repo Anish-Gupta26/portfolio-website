@@ -1,5 +1,14 @@
 export const ExperienceData = [
     {
+        company: "CRED",
+        doj: "02-02-2023",
+        doe: "Present",
+        role: "Software Engineer- site reliability",
+        logo: require("../../../assets/cred_logo.png"),
+        website: "https://cred.club",
+        description: "Enhanced operational efficiency by developing and optimizing internal automation tools, facilitating seamless CI/CD pipeline management, and streamlined provisioning of cloud resources.",
+    },
+    {
         company: "V360 Technology Inc.",
         doj: "01-06-2022",
         doe: "01-08-2022",
